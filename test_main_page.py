@@ -7,7 +7,7 @@ def test_guest_can_go_to_login_page(browser):
 
 
 def test_should_be_login_link(browser):
-    link = link = "http://selenium1py.pythonanywhere.com/"
+    link = "http://selenium1py.pythonanywhere.com/"
     page = MainPage(browser, link)
     page.open()
     page.should_be_login_link()
